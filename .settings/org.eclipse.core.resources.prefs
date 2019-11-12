@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/seleniumDemo/stepDemo.java=UTF-8
+encoding//src/main/java/stepDefinitions/Calculator.java=UTF-8
+encoding//src/main/java/stepDefinitions/stepDemo.java=UTF-8
+encoding//src/main/java/testCucumber/stepDemo.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/java/com/testcase/RunCukesTest.java=UTF-8
+encoding//src/test/java/com/testcase/RunstepDemo.java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding//src/test/resources/features/demo.feature=UTF-8
+encoding/<project>=UTF-8
