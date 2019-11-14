@@ -1,9 +1,83 @@
 [
   {
-    "line": 2,
-    "elements": [
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
       {
         "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
         "name": "Title of your scenario",
         "description": "",
         "id": "search-\"cucumber\"-keyword;title-of-your-scenario",
@@ -12,50 +86,38 @@
         "steps": [
           {
             "result": {
-              "duration": 5363338762,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 5,
-            "name": "open browser baidu page",
-            "match": {
-              "location": "stepDemo.open_browser_baidu_page()"
-            },
+            "line": 23,
+            "name": "I enter my blog address \"https://www.baidu.com\" and go to Home page",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 316968337,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 6,
+            "line": 25,
             "name": "Input searchbox keyword",
-            "match": {
-              "location": "stepDemo.send_keyword_into_searchbox()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 110515643,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 7,
+            "line": 26,
             "name": "I click search button",
-            "match": {
-              "location": "stepDemo.i_click_search_button()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2882616732,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 8,
+            "line": 27,
             "name": "The correct search result is returned",
-            "match": {
-              "location": "stepDemo.the_correct_search_result_is_returned()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
@@ -65,10 +127,10 @@
     "description": "",
     "id": "search-\"cucumber\"-keyword",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/stepDemo.feature",
+    "uri": "src/test/resources/features/seleniumDemo.feature",
     "tags": [
       {
-        "line": 1,
+        "line": 19,
         "name": "@tag"
       }
     ]

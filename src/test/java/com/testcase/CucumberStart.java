@@ -44,7 +44,7 @@ import cucumber.api.CucumberOptions;
 		//plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/extent-report/report.html"},
 		plugin = {"json:target/cucumber/cucumber.json", "html:target/cucumber"},
         glue = {"testCucumber"},tags = {"@tag"})
-public class RunstepDemo {
+public class CucumberStart {
 	@BeforeClass
     public static void setup() {
         ExtentProperties extentProperties = ExtentProperties.INSTANCE;
