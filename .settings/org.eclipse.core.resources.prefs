@@ -8,6 +8,7 @@ encoding//src/main/resources=UTF-8
 encoding//src/test/java=UTF-8
 encoding//src/test/java/com/testcase/CucumberStart.java=UTF-8
 encoding//src/test/java/com/testcase/RunCukesTest.java=UTF-8
+encoding//src/test/java/com/testcase/RunSeleniumTest.java=UTF-8
 encoding//src/test/resources=UTF-8
 encoding//src/test/resources/features/demo.feature=UTF-8
 encoding/<project>=UTF-8

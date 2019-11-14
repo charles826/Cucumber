@@ -42,7 +42,8 @@ import cucumber.api.CucumberOptions;
 		features = {"src/test/resources/features/stepDemo.feature"},
 		//plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json"},
 		//plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/extent-report/report.html"},
-		plugin = {"json:target/cucumber/cucumber.json", "html:target/cucumber"},
+		//format = {"pretty","html:target/cucumber"},
+		format = {"json:target/cucumber/cucumber.json", "html:target/cucumber"},
         glue = {"testCucumber"},tags = {"@tag"})
 public class CucumberStart {
 	@BeforeClass
