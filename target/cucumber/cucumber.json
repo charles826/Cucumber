@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "search-\"cucumber\"-keyword;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5535606910,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser baidu page",
+            "match": {
+              "location": "stepDemo.open_browser_baidu_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226748654,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Input searchbox keyword",
+            "match": {
+              "location": "stepDemo.send_keyword_into_searchbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63072545,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click search button",
+            "match": {
+              "location": "stepDemo.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2665743514,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The correct search result is returned",
+            "match": {
+              "location": "stepDemo.the_correct_search_result_is_returned()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search \"cucumber\" keyword",
+    "description": "",
+    "id": "search-\"cucumber\"-keyword",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/stepDemo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]

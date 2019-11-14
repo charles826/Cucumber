@@ -44,28 +44,28 @@ formatter.match({
   "location": "stepDemo.open_browser_baidu_page()"
 });
 formatter.result({
-  "duration": 5112244714,
+  "duration": 5535606910,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDemo.send_keyword_into_searchbox()"
 });
 formatter.result({
-  "duration": 242866459,
+  "duration": 226748654,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDemo.i_click_search_button()"
 });
 formatter.result({
-  "duration": 78422837,
+  "duration": 63072545,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDemo.the_correct_search_result_is_returned()"
 });
 formatter.result({
-  "duration": 2983117482,
+  "duration": 2665743514,
   "status": "passed"
 });
 });

@@ -1,6 +1,15 @@
 package com.testcase;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.junit.runner.RunWith;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import com.cucumber.listener.ExtentProperties;
+import com.gargoylesoftware.htmlunit.javascript.host.file.File;
+
 import cucumber.api.junit.Cucumber;
 import cucumber.api.CucumberOptions;
 //https://github.com/charles826/cucumber.git
@@ -25,14 +34,27 @@ import cucumber.api.CucumberOptions;
  */
 
 @RunWith(Cucumber.class)
+//@ContextConfiguration("classpath:cucumber.xml")
 //@CucumberOptions(plugin={"pretty"}, features={"src/test/resources/features/testBaidu.feature"},glue=("stepDefinition"),
 //tags= {"@tag1"})
  
 @CucumberOptions(
 		features = {"src/test/resources/features/stepDemo.feature"},
 		//plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json"},
-		plugin = {"pretty", "html:target/cucumber"},
+		//plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/extent-report/report.html"},
+		plugin = {"json:target/cucumber/cucumber.json", "html:target/cucumber"},
         glue = {"testCucumber"},tags = {"@tag"})
 public class RunstepDemo {
-	
+	@BeforeClass
+    public static void setup() {
+        ExtentProperties extentProperties = ExtentProperties.INSTANCE;
+        extentProperties.setReportPath("target/extent-report/myreport.html");
+        //  extentProperties.setExtentXServerUrl("http://localhost:1337");
+        extentProperties.setProjectName("xxx");
+    }
+   
+	@AfterClass
+    public static void tearDown() {
+
+    }
 }
